@@ -1,5 +1,5 @@
 def badge_maker(name)
-  puts "Hello, my name is #{name}."
+  "Hello, my name is #{name}."
 end
 
 def batch_badge_creator(names)
@@ -19,3 +19,7 @@ def assign_rooms(speakers)
   end
   new
 end
+
+def printer(names)
+  puts batch_badge_creator(names)
+  puts assign_rooms(names)
